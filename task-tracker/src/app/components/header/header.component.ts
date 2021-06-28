@@ -29,7 +29,7 @@ export class HeaderComponent implements OnInit {
   }
 
   hasRoute(route: string) {
-    this.router.url === route;
+    return this.router.url === route;
   }
 
 }
